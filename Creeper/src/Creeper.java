@@ -15,6 +15,7 @@ public class Creeper {
     public void hug(){
         mood += Math.random()* (50 - 12 + 1) + 12; 
         System.out.println(name + " hisses happily");
+        System.out.println(name + "\'s mood is now " + mood); 
     }
 }
 
